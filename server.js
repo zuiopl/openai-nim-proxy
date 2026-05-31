@@ -22,13 +22,29 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'z-ai/glm5.1',
+  'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
   'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
+  'gpt-3.5': 'qwen/qwen3.5-397b-a17b',
   'gpt-4-turbo': 'moonshotai/kimi-k2.6',
-  'gpt-4o': 'deepseek-ai/deepseek-v4-flash',
-  'claude-3-opus': 'deepseek-ai/deepseek-v4-pro',
+  'gpt-4o': 'deepseek-ai/deepseek-v4-pro',
+  'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking' 
+  'gemini-pro': 'nvidia/llama-3.3-nemotron-super-49b-v1.5',
+  'gemini-turbo': 'meta/llama-3.3-70b-instruct',
+  'gemini-turbo?': 'abacusai/dracarys-llama-3.1-70b-instruct',
+  'gpt-3.5o': 'nvidia/nemotron-mini-4b-instruct',
+  'gpt-4-flash': 'deepseek-ai/deepseek-v4-flash',
+  'glm-5.1': 'z-ai/glm-5.1',
+  'mistral': 'mistralai/mistral-large-3-675b-instruct-2512',
+  'mistral-turbo': 'mistralai/mistral-medium-3.5-128b',
+  'mistral-pro': 'mistralai/mistral-small-4-119b-2603',
+  'mistral-nemo': 'mistralai/mistral-nemotron',
+  'mistral-fast': 'mistralai/ministral-14b-instruct-2512',
+  'google-light': 'google/gemma-4-31b-it',
+  'google-lightest': 'google/gemma-2-2b-it',
+  'google-lighter': 'google/gemma-3n-e4b-it',
+  'm2.7': 'minimaxai/minimax-m2.7',
+  'step-3.5-flash': 'stepfun-ai/step-3.5-flash' 
 };
 
 // Health check endpoint
