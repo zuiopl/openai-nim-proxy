@@ -23,7 +23,7 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
-  'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
+  'gpt-4': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-3.5': 'qwen/qwen3.5-397b-a17b',
   'gpt-4-turbo': 'moonshotai/kimi-k2.6',
   'gpt-4o': 'deepseek-ai/deepseek-v4-pro',
@@ -34,7 +34,7 @@ const MODEL_MAPPING = {
   'gemini-turbo?': 'abacusai/dracarys-llama-3.1-70b-instruct',
   'gpt-3.5o': 'nvidia/nemotron-mini-4b-instruct',
   'gpt-4-flash': 'deepseek-ai/deepseek-v4-flash',
-  'glm-5.1': 'z-ai/glm-5.1',
+  'glm-5.2': 'z-ai/glm-5.2',
   'mistral': 'mistralai/mistral-large-3-675b-instruct-2512',
   'mistral-turbo': 'mistralai/mistral-medium-3.5-128b',
   'mistral-pro': 'mistralai/mistral-small-4-119b-2603',
@@ -44,7 +44,9 @@ const MODEL_MAPPING = {
   'google-lightest': 'google/gemma-2-2b-it',
   'google-lighter': 'google/gemma-3n-e4b-it',
   'm2.7': 'minimaxai/minimax-m2.7',
-  'step-3.5-flash': 'stepfun-ai/step-3.5-flash' 
+  'm3': 'minimaxai/minimax-m3',
+  'step-3.5-flash': 'stepfun-ai/step-3.5-flash',
+  'step-3.7-flash': 'stepfun-ai/step-3.7-flash'
 };
 
 // Health check endpoint
